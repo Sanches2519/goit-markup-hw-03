@@ -45,7 +45,7 @@ ul {
   padding: 0;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -233,7 +233,7 @@ ul {
   display: flex;
 }
 .team-item{
-  flex-basis: calc((100%-90px)/4);
+  flex-basis: calc((100% - 90px)/4);
   border-radius: 0px 0px 4px 4px;
 }
 .team-div{
@@ -356,7 +356,7 @@ ul {
   gap: 30px;
 }
 .filter-item{
- flex-basis: calc((100%-60px)/3);
+ flex-basis: calc((100% - 60px)/3);
  border-left: 1px solid var(--border-color);
  border-right: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
