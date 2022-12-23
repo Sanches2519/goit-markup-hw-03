@@ -178,6 +178,7 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .main-button:hover,
 .main-button:focus {
@@ -190,9 +191,10 @@ ul {
   display: flex;
 }
 .hidden-item {
-  margin-right: 30px;
+ flex-basis: calc((100% - 90px)/4);
+ margin-right: 30px;
 }
-.hidden-item:nth-child(4n) {
+.hidden-item:nth-child(4n){
   margin-right: 0;
 }
 
@@ -201,14 +203,16 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .text-desk {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 /* чим ми займаємося */
 .section-developments {
-  background-color: var(--third-background-color);
+ padding-top: 0;
 }
 .developments {
   display: flex;
@@ -217,7 +221,6 @@ ul {
   display: block;
   max-width: 100%;
   height: auto;
-  margin-right: 0;
 }
 .item-developments {
   margin-right: 30px;
@@ -294,8 +297,14 @@ ul {
   font-size: 14px;
   line-height: 1.71;
 }
+.text-address{
+  margin-bottom: 9px;
+}
 .address-item{
   margin-bottom: 9px;
+}
+.address-item:nth-child(3n){
+  margin-bottom: 0;
 }
 .footer-contact {
   color: var(--contact-link-footer);
@@ -357,9 +366,6 @@ ul {
 }
 .filter-item{
  flex-basis: calc((100% - 60px)/3);
- border-left: 1px solid var(--border-color);
- border-right: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
 }
 .filter-item:nth-child(3n){
   margin-right: 0;
@@ -394,5 +400,8 @@ ul {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+   border-bottom: 1px solid var(--border-color);
 }
 
